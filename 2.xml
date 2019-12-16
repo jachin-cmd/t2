@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfg>
+    <routes all_default_model_ids="10" >
+        <subappids>
+            <subappid subappid="1256268721" subappid_default_model_ids="15" /> <!-- 唯品会 -->
+            <subappid subappid="1253718596" subappid_default_model_ids="8"/> <!-- 马上消费 -->
+            <subappid subappid="1256792112" subappid_default_model_ids="2" > <!-- 华夏星云 -->
+                <scene sceneid="0" scene_model_ids="2" />
+            <scene sceneid="5004" scene_model_ids="38 39 40" />
+            </subappid>
+            <subappid subappid="125371859" subappid_default_model_ids="2" >
+                <scene sceneid="6" scene_model_ids="6" />
+                <scene sceneid="7" scene_model_ids="7" />
+            </subappid>
+            <subappid subappid="1256559164" subappid_default_model_ids="2" > <!-- r360 jy -->
+            <scene sceneid="7" scene_model_ids="7" />
+            </subappid>
+            <subappid subappid="1257197112" subappid_default_model_ids="2" > <!-- r360 tj -->
+                <scene sceneid="6" scene_model_ids="6" />
+            </subappid>
+            <subappid subappid="1256055924" subappid_default_model_ids="17" > <!-- 掌众 -->
+                <scene sceneid="8" scene_model_ids="17"/> <!-- 大额小贷 -->
+                <scene sceneid="9" scene_model_ids="18"/> <!-- 短期小贷 -->
+            </subappid>
+            <subappid subappid="1251392145" subappid_default_model_ids="20 23 19"  /> <!-- 测试 -->
+            <subappid subappid="1257229971" subappid_default_model_ids="2"/> <!-- 投哪网 -->
+            <subappid subappid="1258270818" subappid_default_model_ids="2"/>  <!-- 云南桂子汽车经纪有限公司 新网银行-->
+            <subappid subappid="1252121065" subappid_default_model_ids="22"/> <!-- 顶象 -->
+            <subappid subappid="1257280604" subappid_default_model_ids="22"/> <!-- 信联 -->
+            <subappid subappid="1256088398" subappid_default_model_ids="10" > <!-- 杭州霖梓 -->
+                                <scene sceneid="0" scene_model_ids="10"/> <!-- 通用模型V2 -->
+                                <scene sceneid="2" scene_model_ids="11"/> <!-- 小贷 -->
+                        </subappid>
+            <subappid subappid="1256351143" subappid_default_model_ids="10"/> <!-- 融投天下 -->
+            <subappid subappid="1258538773" subappid_default_model_ids="10"/> <!-- 武汉易索 -->
+            <subappid subappid="1255853255" subappid_default_model_ids="60" /> <!-- 广发银行 -->
+            <subappid subappid="1257907128" subappid_default_model_ids="2" > <!-- 济宁 星云 -->
+                <scene sceneid="0" scene_model_ids="2" />
+                <scene sceneid="5004" scene_model_ids="38 39 40" />
+            </subappid>
+            <subappid subappid="1258166783" subappid_default_model_ids="2" > <!-- 济宁 星云2 -->
+                                <scene sceneid="0" scene_model_ids="2" />
+                                <scene sceneid="5004" scene_model_ids="38 39 40" />
+                        </subappid>
+            <subappid subappid="1257898569" subappid_default_model_ids="2" > <!-- 龙江(腾梭账号) 星云 -->
+                                <scene sceneid="0" scene_model_ids="2" />
+                                <scene sceneid="5004" scene_model_ids="38 39 40" />
+                        </subappid>
+            <!--旧逻辑迁移-->
+            <subappid subappid="1255929493" subappid_default_model_ids="2"/><!--华夏 已迁-->
+            <subappid subappid="1253731655" subappid_default_model_ids="2"/> <!--墨讯 已迁-->
+            <subappid subappid="1256768932" subappid_default_model_ids="2"/><!--光大银行 已迁-->
+        </subappids>
+        <scenes>
+            <scene sceneid="0" scene_model_ids="10" />
+            <!-- 支付场景 用 1006的分 -->
+            <scene sceneid="2" scene_model_ids="3" />
+            <scene sceneid="4" scene_model_ids="9" />
+            </scenes>
+    </routes>
+    <tag_routes all_default_tag_srv="0">
+        <subappids>
+            <subappid subappid="1251392145" subappid_default_tag_srv="1"/> <!-- subappid  对应的标签服务  -->
+            <subappid subappid="1256792112" subappid_default_tag_srv="5"/> <!-- 华夏星云 -->
+            <subappid subappid="1257987640" subappid_default_tag_srv="1"/> <!-- 星宁 -->
+            <subappid subappid="1258538773" subappid_default_tag_srv="1"/> <!-- 武汉易索 -->
+            <subappid subappid="1251001047" subappid_default_tag_srv="0">
+                <scene sceneid="8" scene_tag_srv="1"/>
+                <scene sceneid="9" scene_tag_srv="1"/>
+                <scene sceneid="10" scene_tag_srv="8"/>
+            </subappid>
+            <subappid subappid="1256088398" subappid_default_tag_srv="0" /> <!-- 杭州霖梓 -->
+            <subappid subappid="1256351143" subappid_default_tag_srv="1" /> <!-- 融投天下 -->
+            <subappid subappid="1255853255" subappid_default_tag_srv="1 7 11" /> <!-- 广发银行 -->
+            <subappid subappid="1257887090" subappid_default_tag_srv="0" /> <!-- 浦发银行 -->
+            <subappids subappids="1255929493 1253731655 1256768932" subappids_default_tag_srv="0"/> <!-- 旧逻辑中默认用风险码0版本的appid -->
+        </subappids>
+        <scenes>
+            <scene sceneid="2" scene_tag_srv="0" />
+        </scenes>
+    </tag_routes>
+</cfg>
