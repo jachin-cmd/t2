@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfg>
+    <routes all_default_model_ids="10" >
+        <subappids>
+            <subappid subappid="1256268721" subappid_default_model_ids="15" /> <!-- 唯品会 -->
+            <subappid subappid="1253718596" subappid_default_model_ids="8"/> <!-- 马上消费 -->
+    </routes>
+    <tag_routes all_default_tag_srv="0">
+        <subappids>
+            <subappid subappid="1251392145" subappid_default_tag_srv="1"/> <!-- subappid  对应的标签服务  -->
+            <subappid subappid="1256792112" subappid_default_tag_srv="5"/> <!-- 华夏星云 -->
+        </subappids>
+        <scenes>
+             <scene sceneid="2" scene_tag_srv="0" />
+        </scenes>
+    </tag_routes>
+</cfg>
